@@ -577,7 +577,6 @@ class Bowling(object):
                     break
 
         # exit
-        self.show_scores(frames)
         with term.cbreak():
             term.inkey(5)
 
